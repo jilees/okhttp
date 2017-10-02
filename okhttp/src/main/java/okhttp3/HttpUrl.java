@@ -293,7 +293,7 @@ public final class HttpUrl {
   static final String PATH_SEGMENT_ENCODE_SET = " \"<>^`{}|/\\?#[]";
   static final String PATH_SEGMENT_ENCODE_SET_URI = "[]";
   static final String QUERY_ENCODE_SET = " \"'<>#";
-  static final String QUERY_COMPONENT_ENCODE_SET = " \"'<>#&=";
+  static final String QUERY_COMPONENT_ENCODE_SET = " \"'<>#&=[]";
   static final String QUERY_COMPONENT_ENCODE_SET_URI = "\\^`{|}";
   static final String FORM_ENCODE_SET = " \"':;<=>@[]^`{}|/\\?#&!$(),~";
   static final String FRAGMENT_ENCODE_SET = "";
